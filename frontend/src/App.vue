@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <img alt="Wails logo" src="./assets/images/logo.png" class="logo zoomIn" />
-    <router-link to="/">Home</router-link>
+    <router-link to="/home">Home</router-link>
     <router-view></router-view>
   </div>
 </template>

@@ -5,7 +5,7 @@ import HelloWorld from './components/HelloWorld.vue'
 
 Vue.use(VueRouter)
 
-const routes = [{ component: HelloWorld, name: 'Home', path: '/home' }]
+const routes = [{ component: HelloWorld, name: 'Home', path: '/' }]
 
 const router = new VueRouter({
   mode: 'abstract', // mode must be set to 'abstract'
